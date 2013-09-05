@@ -1,6 +1,4 @@
-NB. Damn, this was tough! split is taken from J's phrases
-
-split=: #@[ }.each [ (E. <;.1 ]) ,
+NB. Damn, this was tough!
 
 y=: 0 : 0
 37107287533902102798797998220837590246510135740250
@@ -105,5 +103,5 @@ y=: 0 : 0
 53503534226472524250874054075591789781264330331690
 )
 
-echo 10 {.": +/ ". (}: > LF split y) ,"1 'x'
+echo 10 {.": +/ ". (}: > LF cut y) ,"1 'x'
 exit''
